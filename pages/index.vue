@@ -1,9 +1,14 @@
 <template>
-  <Tutorial />
+  <p class="helloWorld">
+    Hello Home
+  </p>
 </template>
 
 <script>
 export default {
-  name: 'IndexPage',
+  name: 'Home',
+  head: {
+    title: 'Home',
+  },
 }
 </script>
