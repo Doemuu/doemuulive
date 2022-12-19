@@ -1,18 +1,21 @@
 <template>
-  <div>
+  <Layout>
     <p>Hello Gallery</p>
-  </div>
+  </Layout>
 </template>
 
 <script>
+import Layout from '../components/layout.vue'
 export default {
   name: 'Gallery',
   head: {
-    title: 'Gallery'
-  }
+    title: 'Gallery',
+  },
+  components: {
+    Layout,
+  },
 }
 </script>
 
 <style>
-
 </style>

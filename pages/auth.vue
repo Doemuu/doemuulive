@@ -1,15 +1,15 @@
 <template>
   <Layout>
-    <p>Hello CV</p>
+    <p>Hello Auth</p>
   </Layout>
 </template>
 
 <script>
 import Layout from '../components/layout.vue'
 export default {
-  name: 'CV',
+  name: 'Authentication',
   head: {
-    title: 'CV',
+    title: 'Auth',
   },
   components: {
     Layout,
