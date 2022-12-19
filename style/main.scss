@@ -1,14 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
-:root{
+:root {
   //colours
-  --primary-color: #00C8A0;
-  --secondary-color: #50596F;
+  --primary-color: #00c8a0;
+  --secondary-color: #50596f;
   --base-color: #494454;
-  --text-color: #F7EBFF;
+  --text-color: #f7ebff;
 }
 
-html, body {
+html,
+body {
   font-family: Inter;
   background-color: var(--base-color);
   color: var(--text-color);
@@ -16,8 +17,14 @@ html, body {
 
 a {
   color: var(--text-color);
-  &:hover{
+  &:hover {
     text-decoration: none;
     color: var(--primary-color);
+  }
+}
+
+.clickable {
+  &:hover {
+    cursor: pointer;
   }
 }
