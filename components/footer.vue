@@ -1,6 +1,6 @@
 <template>
-  <div class="bg-dark fixed-bottom">
-    <b-row class="align-items-center p-1">
+  <div class="bg-dark absolute-bottom">
+    <b-row class="align-items-center p-1 m-0">
       <b-col cols="2" col class="pl-4">
         <a href="mailto:doemu@outlook.com">Contact</a>
       </b-col>

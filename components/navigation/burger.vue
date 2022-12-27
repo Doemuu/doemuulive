@@ -47,6 +47,7 @@ export default {
   min-width: 25px;
   max-height: 40px;
   min-height: 25px;
+  z-index: 999;
   right: 2%;
   top: 2%;
   .burgerbar {
