@@ -18,10 +18,10 @@
         </div>
       </VueAgile>
       <CustomParagraph class="paragraph" :paragraph="personalParagraph" />
+      <div v-for="experience in personalExperiences">
+        <ExperienceCard :experience="experience" />
+      </div>
     </client-only>
-    <div v-for="experience in personalExperiences">
-      <ExperienceCard :experience="experience" />
-    </div>
   </Layout>
 </template>
 
